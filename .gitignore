@@ -1,5 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/c,keil
-# Edit at https://www.toptal.com/developers/gitignore?templates=c,keil
+# Created by https://www.toptal.com/developers/gitignore/api/c,c++,keil
+# Edit at https://www.toptal.com/developers/gitignore?templates=c,c++,keil
 
 ### C ###
 # Prerequisites
@@ -55,6 +55,25 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
+### C++ ###
+# Prerequisites
+
+# Compiled Object files
+*.slo
+
+# Precompiled Headers
+
+# Compiled Dynamic libraries
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+
+# Executables
+
 ### Keil ###
 # something maybe need to add
 # *.bat  # generate batch file
@@ -102,5 +121,4 @@ dkms.conf
 *.uvguix.*
 
 
-# End of https://www.toptal.com/developers/gitignore/api/c,keil
-1
+# End of https://www.toptal.com/developers/gitignore/api/c,c++,keil
